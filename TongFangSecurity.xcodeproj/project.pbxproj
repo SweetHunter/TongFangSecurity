@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		633C72401E7FD3E100C66D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C723F1E7FD3E100C66D72 /* main.m */; };
+		633C72431E7FD3E100C66D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C72421E7FD3E100C66D72 /* AppDelegate.m */; };
+		633C72461E7FD3E100C66D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633C72451E7FD3E100C66D72 /* ViewController.m */; };
+		633C72491E7FD3E100C66D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633C72471E7FD3E100C66D72 /* Main.storyboard */; };
+		633C724B1E7FD3E100C66D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633C724A1E7FD3E100C66D72 /* Assets.xcassets */; };
+		633C724E1E7FD3E100C66D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633C724C1E7FD3E100C66D72 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		633C723B1E7FD3E100C66D72 /* TongFangSecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TongFangSecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		633C723F1E7FD3E100C66D72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		633C72411E7FD3E100C66D72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		633C72421E7FD3E100C66D72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		633C72441E7FD3E100C66D72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		633C72451E7FD3E100C66D72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		633C72481E7FD3E100C66D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		633C724A1E7FD3E100C66D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		633C724D1E7FD3E100C66D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		633C724F1E7FD3E100C66D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		633C72381E7FD3E100C66D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		633C72321E7FD3E100C66D72 = {
+			isa = PBXGroup;
+			children = (
+				633C723D1E7FD3E100C66D72 /* TongFangSecurity */,
+				633C723C1E7FD3E100C66D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		633C723C1E7FD3E100C66D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				633C723B1E7FD3E100C66D72 /* TongFangSecurity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		633C723D1E7FD3E100C66D72 /* TongFangSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				633C72411E7FD3E100C66D72 /* AppDelegate.h */,
+				633C72421E7FD3E100C66D72 /* AppDelegate.m */,
+				633C72441E7FD3E100C66D72 /* ViewController.h */,
+				633C72451E7FD3E100C66D72 /* ViewController.m */,
+				633C72471E7FD3E100C66D72 /* Main.storyboard */,
+				633C724A1E7FD3E100C66D72 /* Assets.xcassets */,
+				633C724C1E7FD3E100C66D72 /* LaunchScreen.storyboard */,
+				633C724F1E7FD3E100C66D72 /* Info.plist */,
+				633C723E1E7FD3E100C66D72 /* Supporting Files */,
+			);
+			path = TongFangSecurity;
+			sourceTree = "<group>";
+		};
+		633C723E1E7FD3E100C66D72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				633C723F1E7FD3E100C66D72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		633C723A1E7FD3E100C66D72 /* TongFangSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633C72521E7FD3E100C66D72 /* Build configuration list for PBXNativeTarget "TongFangSecurity" */;
+			buildPhases = (
+				633C72371E7FD3E100C66D72 /* Sources */,
+				633C72381E7FD3E100C66D72 /* Frameworks */,
+				633C72391E7FD3E100C66D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TongFangSecurity;
+			productName = TongFangSecurity;
+			productReference = 633C723B1E7FD3E100C66D72 /* TongFangSecurity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		633C72331E7FD3E100C66D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Tongfang Capital Management Co., Ltd";
+				TargetAttributes = {
+					633C723A1E7FD3E100C66D72 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 633C72361E7FD3E100C66D72 /* Build configuration list for PBXProject "TongFangSecurity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 633C72321E7FD3E100C66D72;
+			productRefGroup = 633C723C1E7FD3E100C66D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				633C723A1E7FD3E100C66D72 /* TongFangSecurity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		633C72391E7FD3E100C66D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633C724E1E7FD3E100C66D72 /* LaunchScreen.storyboard in Resources */,
+				633C724B1E7FD3E100C66D72 /* Assets.xcassets in Resources */,
+				633C72491E7FD3E100C66D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		633C72371E7FD3E100C66D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633C72461E7FD3E100C66D72 /* ViewController.m in Sources */,
+				633C72431E7FD3E100C66D72 /* AppDelegate.m in Sources */,
+				633C72401E7FD3E100C66D72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		633C72471E7FD3E100C66D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633C72481E7FD3E100C66D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		633C724C1E7FD3E100C66D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				633C724D1E7FD3E100C66D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		633C72501E7FD3E100C66D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		633C72511E7FD3E100C66D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		633C72531E7FD3E100C66D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongFangSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TF.TongFangSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		633C72541E7FD3E100C66D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TongFangSecurity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TF.TongFangSecurity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		633C72361E7FD3E100C66D72 /* Build configuration list for PBXProject "TongFangSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633C72501E7FD3E100C66D72 /* Debug */,
+				633C72511E7FD3E100C66D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633C72521E7FD3E100C66D72 /* Build configuration list for PBXNativeTarget "TongFangSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				633C72531E7FD3E100C66D72 /* Debug */,
+				633C72541E7FD3E100C66D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 633C72331E7FD3E100C66D72 /* Project object */;
+}
